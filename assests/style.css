@@ -1,0 +1,16 @@
+
+/* color used hex
+#b309de purple
+#504c52 stone grey
+#edebeb white
+*/
+
+#nav-list {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#nav-list > li {
+    margin-bottom: 1em;
+}
