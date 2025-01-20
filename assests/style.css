@@ -1,16 +1,140 @@
-
 /* color used hex
 #b309de purple
-#504c52 stone grey
+#909692 light grey
 #edebeb white
 */
 
-#nav-list {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
+
+/* wildcard targets all elements*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#nav-list > li {
-    margin-bottom: 1em;
+/*usual styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #b309de;
+    font-family: cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/*header content*/
+
+#gta5-logo{}
+header {
+    background-color: #909692;
+    font-family: sans-serif serif;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    display: flex;
+    align-content: baseline;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #b309de;
+
+}
+
+
+#title {
+    text-align: center;
+}
+
+.nav-toggle-label {}
+
+#nav-list {
+    color: #edebeb;
+    font-size: 120%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    margin-bottom: 0rem;  
+}
+
+
+.clickable {
+    border-bottom: solid 1px;
+}
+
+/*nav bar style with dropdown*/
+nav {
+    position: absolute;
+    background-color: #909692;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    display: none;
+    top: 100%;
+    align-content: center;
+}
+
+/*toggle for nav*/
+#nav-toggle:checked~nav{
+    display:block;
+}
+
+#nav-toggle{
+    display: none;
+}
+
+/*main content*/
+main {
+    background-color: pink;
+    flex: 1 0 auto;
+    margin-top:88px;
+}
+
+/*footer content*/
+footer {
+    background-color: #909692;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* media queries for large phones and larger 375px and up*/
+
+@media screen and (min-width: 375px){
+    nav{
+        align-content: center;
+        padding-left: 3rem;
+    }
+}
+@media screen and (min-width: 768px){
+    /*header*/
+    nav{
+    display:flex;
+    position: relative;
+    flex-direction: row;
+    padding-right: 1rem;
+    justify-content: right;
+    word-spacing: 1px;
+    padding-top: 10px;
+}
+
+nav-list{
+    display:flex;
+    word-spacing: 1px; 
+    }
+
+#toggle-image{
+    display:none;
+}
+main{
+    margin-top: 87px;
+}
+}
+
+ 
+    
