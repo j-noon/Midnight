@@ -23,8 +23,8 @@ body {
 
 /*header content*/
 
-header{
-    background-color:#909692;
+header {
+    background-color: #909692;
 }
 
 header a {
@@ -42,171 +42,180 @@ h1 {
     text-align: center;
 }
 
-#gta5-logo{
- margin-top: 20px;
+#gta5-logo {
+    margin-top: 20px;
 }
 
 .clickable {
     border-bottom: solid 1px;
 }
 
-nav{
+nav {
     text-align: center;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 1rem;
     font-size: 110%;
-    }
+}
 
-#nav-list{
+#nav-list {
     color: white;
     margin: 1rem;
 }
 
-#icons{
+#icons {
     margin-left: 10px;
     text-align: center;
 }
 
 /*main content*/
 
-main{
-    background-color: green;
+main {
     color: #b309de;
     width: 100%;
+}
+
+h2{
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color:#909692;
+    border-radius:5px;
+    width: fit-content;
 }
 
 /*footer content*/
 footer {
     background-color: #909692;
-    position:fixed;
-    bottom:0%;
-    width:100%
+    position: fixed;
+    bottom: 0%;
+    width: 100%
 }
-#footer{
-    width:100%;
+
+#footer {
+    width: 100%;
     margin-left: 0%;
 }
 
-#icons{
+#icons {
     color: #b309de;
     font-size: 2rem;
     padding: 27px;
     text-align: center;
     list-style-type: none;
-    display:inline-block;
+    display: inline-block;
     justify-content: center;
     justify-content: space-between;
-    
-    
+
+
 }
 
 
 
 /* media queries for large phones and larger 375px and up*/
 
-@media screen and (min-width: 375px){
-    
-    header{
-       font-size: 80%;
+@media screen and (min-width: 375px) {
+
+    header {
+        font-size: 80%;
     }
 
-    h1{
+    h1 {
         margin-left: -10px;
     }
 
-    #gta5-logo{
+    #gta5-logo {
         position: absolute;
         margin-top: 50px;
         margin-left: -20px;
     }
 
-    #midnight-logo{
+    #midnight-logo {
         position: absolute;
         margin-top: 25px;
         margin-left: -10px;
-        }
-    
-    nav{
+    }
+
+    nav {
         align-content: center;
         padding-left: 3rem;
     }
-    
-    #icons{
+
+    #icons {
         text-align: center;
         margin-left: 25px;
     }
 }
 
- /* media queries for large phones and larger 768px and up*/
-@media screen and (min-width: 768px){
+/* media queries for large phones and larger 768px and up*/
+@media screen and (min-width: 768px) {
     /*header*/
 
-    h1{
+    h1 {
         font-size: 2rem;
         margin-top: 30px;
         margin-left: -90px;
     }
 
-    #title{
+    #title {
         text-align: center;
         margin-right: 100px;
     }
 
 
-    #gta5-logo{
-position: absolute;
-margin-left: -80px;
-margin-top: 10px;
+    #gta5-logo {
+        position: absolute;
+        margin-left: -80px;
+        margin-top: 10px;
     }
 
-    #midnight-logo{
+    #midnight-logo {
         position: absolute;
         margin-top: -10px;
-        margin-left:5px;
+        margin-left: 5px;
     }
 
 
-    nav{
-    display:flex;
-    position:relative;
-    flex-direction: row;
-    padding-right: 1rem;
-    justify-content:right;
-    margin-top: 1%;
-    word-spacing: 1px;
-    padding-top: 10px;
+    nav {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        padding-right: 1rem;
+        justify-content: right;
+        margin-top: 1%;
+        word-spacing: 1px;
+        padding-top: 10px;
+    }
+
+    #nav-list {
+        margin-top: -40px;
+    }
+
+    #icons {
+        text-align: center;
+        margin-left: 90px;
+    }
+
+
+    main {
+        margin-top: 0px;
+
+    }
+
+    #icons {
+        justify-content: space-between;
+        text-align: center;
+        margin-right: 50px;
+    }
 }
 
-#nav-list{
-    margin-top: -40px;
-}
-#icons{
-    text-align: center;
-    margin-left: 90px;
-}
-
-
-main{
-    margin-top: 0px;
-    
-}
-#icons{
-    justify-content: space-between;
-    text-align: center;
-    margin-right: 50px;
-}
-}
-
- /* media queries for large phones and larger 1024px and up*/
- @media screen and (min-width: 1024px){
-    h1{
+/* media queries for large phones and larger 1024px and up*/
+@media screen and (min-width: 1024px) {
+    h1 {
         font-size: 2.2rem;
     }
-    
-    #icons{
+
+    #icons {
         text-align: center;
         justify-content: space-between;
-        margin-right: 260px;
+        margin-right: 140px;
     }
-    
- }
+}
