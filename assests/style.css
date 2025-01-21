@@ -32,6 +32,7 @@ header a {
 }
 
 h1 {
+    font-size: 180%;
     text-transform: uppercase;
     color: #b309de;
 
@@ -59,6 +60,11 @@ nav{
 #nav-list{
     color: white;
     margin: 1rem;
+}
+
+#icons{
+    margin-left: 10px;
+    text-align: center;
 }
 
 /*main content*/
@@ -116,8 +122,8 @@ footer {
 
     #midnight-logo{
         position: absolute;
-        margin-top: 35px;
-        margin-left: -25px;
+        margin-top: 25px;
+        margin-left: -10px;
         }
     
     nav{
@@ -127,7 +133,7 @@ footer {
     
     #icons{
         text-align: center;
-        margin-left: 10px;
+        margin-left: 25px;
     }
 }
 
@@ -136,7 +142,7 @@ footer {
     /*header*/
 
     h1{
-        font-size: 1.5rem;
+        font-size: 2rem;
         margin-top: 30px;
         margin-left: -90px;
     }
@@ -156,7 +162,7 @@ margin-top: 10px;
     #midnight-logo{
         position: absolute;
         margin-top: -10px;
-        margin-left:20px;
+        margin-left:5px;
     }
 
 
@@ -181,16 +187,26 @@ margin-top: 10px;
 
 
 main{
-    margin-top: 40px;
+    margin-top: 0px;
     
+}
+#icons{
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 50px;
 }
 }
 
  /* media queries for large phones and larger 1024px and up*/
  @media screen and (min-width: 1024px){
+    h1{
+        font-size: 2.2rem;
+    }
+    
     #icons{
         text-align: center;
-        margin-left: 140px;
+        justify-content: space-between;
+        margin-right: 260px;
     }
     
  }
