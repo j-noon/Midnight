@@ -64,16 +64,37 @@ nav{
 /*main content*/
 
 main{
+    background-color: green;
     color: #b309de;
+    width: 100%;
 }
 
 /*footer content*/
 footer {
     background-color: #909692;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    position:fixed;
+    bottom:0%;
+    width:100%
 }
+#footer{
+    width:100%;
+    margin-left: 0%;
+}
+
+#icons{
+    color: #b309de;
+    font-size: 2rem;
+    padding: 27px;
+    text-align: center;
+    list-style-type: none;
+    display:inline-block;
+    justify-content: center;
+    justify-content: space-between;
+    
+    
+}
+
+
 
 /* media queries for large phones and larger 375px and up*/
 
@@ -103,13 +124,21 @@ footer {
         align-content: center;
         padding-left: 3rem;
     }
+    
+    #icons{
+        text-align: center;
+        margin-left: 10px;
+    }
 }
+
+ /* media queries for large phones and larger 768px and up*/
 @media screen and (min-width: 768px){
     /*header*/
 
     h1{
+        font-size: 1.5rem;
         margin-top: 30px;
-        margin-left: -70px;
+        margin-left: -90px;
     }
 
     #title{
@@ -133,11 +162,35 @@ margin-top: 10px;
 
     nav{
     display:flex;
-    position: relative;
+    position:relative;
     flex-direction: row;
     padding-right: 1rem;
-    justify-content: right;
+    justify-content:right;
+    margin-top: 1%;
     word-spacing: 1px;
     padding-top: 10px;
 }
+
+#nav-list{
+    margin-top: -40px;
 }
+#icons{
+    text-align: center;
+    margin-left: 90px;
+}
+
+
+main{
+    margin-top: 40px;
+    
+}
+}
+
+ /* media queries for large phones and larger 1024px and up*/
+ @media screen and (min-width: 1024px){
+    #icons{
+        text-align: center;
+        margin-left: 140px;
+    }
+    
+ }
