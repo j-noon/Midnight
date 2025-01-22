@@ -104,6 +104,24 @@ p {
     flex-direction: column;
 }
 
+#clips{;
+    background-color: #909692;
+}
+
+#clip-pics img{
+    width: 100%;
+    gap:1px;
+}
+
+h2{
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+#staff{
+    background-color: white;
+}
+
 
 /*footer content*/
 footer {
