@@ -111,8 +111,10 @@ p {
 }
 
 #clip-pics img{
-    width: 100%;
+    margin-left: 10px;
+    width: 95%;
     gap:1px;
+    border-radius: 15px;
 }
 
 h2{
@@ -131,6 +133,7 @@ h2{
     max-height: 600px;
     position: relative;
     flex-direction: column;
+    border-radius: 15px;
 }
 
 #gallery{
@@ -245,7 +248,9 @@ footer {
 
     #nav-list {
         margin-top: -40px;
+        margin-bottom: 40px;
     }
+
 
     #icons {
         text-align: center;
@@ -263,6 +268,10 @@ footer {
         text-align: center;
         margin-right: 50px;
     }
+
+    #gallery-images{
+        column-count: 2;
+    }
 }
 
 /* media queries for large phones and larger 1024px and up*/
@@ -271,9 +280,15 @@ footer {
         font-size: 2.2rem;
     }
 
+    #nav-list {
+        margin-top: -60px;
+    }
+
     #icons {
         text-align: center;
         justify-content: space-between;
         margin-right: 140px;
     }
+    #gallery-images{
+        column-count: 3;
 }
