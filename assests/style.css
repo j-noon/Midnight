@@ -77,9 +77,9 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("https://cdn.discordapp.com/attachments/1331423798708146235/1331621617515630672/family-ting.png?ex=679248c5&is=6790f745&hm=c944794fd4b53fa2d502d5160c0080a0a1a405603f5f1e1d488797ae76907c8f&") no-repeat center center/cover;
+    background: url("https://raw.githubusercontent.com/j-noon/Midnight/main/assests/images/hero-image.png") no-repeat center center/cover;
     max-height: fit-content;
-    background-color: #b309de;
+    background-color:blue;
     margin-top: 0px;
 }
 
@@ -93,7 +93,7 @@ main {
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 5px;
-    width: fit-content;
+    width:fit-content;
 }
 
 p {
@@ -124,6 +124,19 @@ h2{
     background-color: white;
 }
 
+/*gallery content*/
+
+#gallery-images img{
+    width: 100%;
+    max-height: 600px;
+    position: relative;
+    flex-direction: column;
+}
+
+#gallery{
+    background-color: #909692;
+}
+
 
 /*footer content*/
 footer {
@@ -150,6 +163,8 @@ footer {
 
 
 }
+
+
 
 
 
