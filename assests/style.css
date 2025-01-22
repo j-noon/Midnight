@@ -71,12 +71,14 @@ nav {
 
 main {
     flex: 1 0 auto;
+    margin-top:-3%;
 }
 
 #hero {
     height: 600px;
     width: 100%;
     background: url("https://cdn.discordapp.com/attachments/1331423798708146235/1331621617515630672/family-ting.png?ex=679248c5&is=6790f745&hm=c944794fd4b53fa2d502d5160c0080a0a1a405603f5f1e1d488797ae76907c8f&") no-repeat center center/cover;
+    max-height: fit-content;
     background-color: #b309de;
     margin-top: 0px;
 }
@@ -237,7 +239,7 @@ footer {
 
 
     main {
-        margin-top: 0px;
+        margin-top: -3%;
 
     }
 
