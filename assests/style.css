@@ -74,13 +74,30 @@ main {
     width: 100%;
 }
 
-h2{
+#hero {
+    background-image: url("https://cdn.discordapp.com/attachments/1331423798708146235/1331424284924448788/hero-image.png?ex=679190fe&is=67903f7e&hm=22227de7b0ff8f65b11432f5f6dde2ba28e09edd305e2ceefcdc115c5516b52f&");
+    background-color:#b309de;
+    margin-top: 0px;
+}
+
+.about-us{
+    text-decoration: underline;
     margin-top: 10px;
     margin-left: 10px;
-    background-color:#909692;
-    border-radius:5px;
+    border-radius: 5px;
     width: fit-content;
 }
+
+p {
+    font-size: 1rem;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /*footer content*/
 footer {
