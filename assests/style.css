@@ -70,17 +70,23 @@ nav {
 /*main content*/
 
 main {
-    color: #b309de;
-    width: 100%;
+    flex: 1 0 auto;
 }
 
 #hero {
-    background-image: url("https://cdn.discordapp.com/attachments/1331423798708146235/1331424284924448788/hero-image.png?ex=679190fe&is=67903f7e&hm=22227de7b0ff8f65b11432f5f6dde2ba28e09edd305e2ceefcdc115c5516b52f&");
-    background-color:#b309de;
+    height: 600px;
+    width: 100%;
+    background: url("https://cdn.discordapp.com/attachments/1331423798708146235/1331621617515630672/family-ting.png?ex=679248c5&is=6790f745&hm=c944794fd4b53fa2d502d5160c0080a0a1a405603f5f1e1d488797ae76907c8f&") no-repeat center center/cover;
+    background-color: #b309de;
     margin-top: 0px;
 }
 
-.about-us{
+#hero-text{
+    background-color: rgba(119,136,153 .7);
+    font-size: 120%;
+    }
+
+.about-us {
     text-decoration: underline;
     margin-top: 10px;
     margin-left: 10px;
@@ -141,13 +147,13 @@ footer {
 
     #gta5-logo {
         position: absolute;
-        margin-top: 50px;
+        margin-top: 40px;
         margin-left: -20px;
     }
 
     #midnight-logo {
         position: absolute;
-        margin-top: 25px;
+        margin-top: 20px;
         margin-left: -10px;
     }
 
