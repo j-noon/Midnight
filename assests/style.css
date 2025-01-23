@@ -134,21 +134,37 @@ h2{
 /*staff content*/
 
 #staff{
-    background-image:url("assests/images/who-r-they.png")
+    background-image:url("https://cdn.discordapp.com/attachments/1331423798708146235/1332066570746335324/wp9851619.webp?ex=6793e72b&is=679295ab&hm=d7c0b2d4297cb1b34961054cc2ba144f42cb017cb7d2d4f7f0162a2d1bd64204&");
+    background-color: #edebeb;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    margin-bottom: 43px;
 }
 
 h3{
-    text-align: center;
+    margin-left: 5px;
+    color: white;
+    text-align: left;
     text-decoration: underline;
 }
 
 #staff-pics img{
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     gap:5px;
     border-radius: 15px;
-    
-}
+    display: flex;
+    flex-direction: row;
+    }
+
+    #staff p{
+        text-decoration: none;
+        position: absolute;
+        margin-top: -60px;
+        margin-left: 120px;
+        
+    }
 
 /*gallery content*/
 
@@ -300,6 +316,10 @@ footer {
     #gallery-images{
         column-count: 2;
     }
+
+    #staff{
+        column-count: 2;
+    }
 }
 
 /* media queries for large phones and larger 1024px and up*/
@@ -334,9 +354,15 @@ footer {
     #gallery-images{
         column-count: 3;
     }
+
+    #staff{
+        margin-top: -370px;
+        margin-bottom: 80px;
+        column-count: 4;
+    }
 }
 
-/* media queries for large phones and larger 1024px and up*/
+/* media queries for large phones and larger 1440px and up*/
 @media screen and (min-width: 1440px) {
 
     #clip-pics a{
@@ -346,6 +372,10 @@ footer {
     }
 
     #gallery-images{
+        column-count: 4;
+    }
+
+    #staff{
         column-count: 4;
     }
 }
