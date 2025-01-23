@@ -131,6 +131,25 @@ h2{
     background-color: white;
 }
 
+/*staff content*/
+
+#staff{
+    background-image:url("assests/images/who-r-they.png")
+}
+
+h3{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#staff-pics img{
+    width: 200px;
+    height: 200px;
+    gap:5px;
+    border-radius: 15px;
+    
+}
+
 /*gallery content*/
 
 #gallery-images img{
