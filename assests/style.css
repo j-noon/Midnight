@@ -110,6 +110,11 @@ p {
     background-color: #909692;
 }
 
+#clip-pics{
+    column-count: 2;
+    margin-right: 20px;
+}
+
 #clip-pics img{
     margin-left: 10px;
     width: 95%;
@@ -289,12 +294,31 @@ footer {
     }
 
     #clip-pics{
-        column-count: 2;
+        column-count: 4;
+        display:flex;
+        min-height: 600px;
+        margin-top: 10px; 
+        gap: 5px;  
+    }
+
+    #clip-pics img{
+        height: 150px;
+        width: 100%;
     }
 
     #icons {
         text-align: center;
         justify-content: space-between;
         margin-right: 140px;
+    }
+}
+
+/* media queries for large phones and larger 1024px and up*/
+@media screen and (min-width: 1440px) {
+
+    #clip-pics a{
+        width: 100%;
+        height: 100px;
+        align-content: center;
     }
 }
