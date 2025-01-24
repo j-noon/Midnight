@@ -10,6 +10,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+h2{
+    font-size: 170%;
+    text-align: center;
 }
 
 /*usual styles*/
@@ -78,15 +84,19 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("https://raw.githubusercontent.com/j-noon/Midnight/main/assests/images/hero-image.png") no-repeat center center/cover;
     max-height: fit-content;
-    background-color:blue;
+    background-color:#909692;
     margin-top: 0px;
+}
+
+#hero-image{
+    width: 100%;
 }
 
 #hero-text{
     background-color: rgba(119,136,153 .7);
     font-size: 120%;
+    padding-bottom: 10px;
     }
 
 .about-us {
@@ -95,19 +105,31 @@ main {
     margin-left: 10px;
     border-radius: 5px;
     width:fit-content;
+    background-color: #909692;
+}
+
+
+#hero-text-section{
+    background-image:url("https://cdn.discordapp.com/attachments/1331423798708146235/1332064505722835014/who-r-they.png?ex=67948dfe&is=67933c7e&hm=c55792c34796235d637689dcf57eb76497d0913367b49a63a10a9e18378e7076&");
 }
 
 p {
+    background-color: #909692;
     font-size: 1rem;
-    margin-left: 8px;
-    margin-right: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-top: 10px;
     color: white;
     display: flex;
     flex-direction: column;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    
 }
 
 #clips{
+    margin-top: 0px;
     background-color: #909692;
 }
 
@@ -121,16 +143,28 @@ p {
     margin-left: 40px;
     width: 95%;
     gap:1px;
-    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+#gallery-button{
+    font-size: 120%;
+    color: #edebeb;
+    background-color:#b309de;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    border-radius: 5px;
 }
 
 h2{
-    
+    padding-bottom: 5px;
     padding-left: 10px;
     text-decoration: underline;
 }
 
 #staff{
+    margin-top 0%;
     background-color: white;
 }
 
@@ -150,9 +184,11 @@ h3{
     color: white;
     text-align: left;
     text-decoration: underline;
+    padding-bottom: 20px;
 }
 
 #staff-pics img{
+    padding-top: 3px;
     width: 100px;
     height: 100px;
     gap:5px;
@@ -164,7 +200,7 @@ h3{
     #staff p{
         text-decoration: none;
         position: absolute;
-        margin-top: -60px;
+        margin-top: -90px;
         margin-left: 120px;
         
     }
@@ -294,6 +330,14 @@ footer {
         margin-bottom: 40px;
     }
 
+    #hero-image{
+        width: 100%;
+    }
+
+    #hero{
+        margin-bottom: 160px;
+    }
+
     #clip-pics{
         margin-left: 40px;
         column-count: 2;
@@ -324,10 +368,33 @@ footer {
     #staff{
         column-count: 2;
     }
+
+    #h2-staff{
+        font-size: 170%;
+        margin-left:80%;
+        padding-bottom: 10px;
+    }
+    #gallery-button{
+        margin-left: 42%;
+    }
+
+    #staff-paragraph{
+        margin-right:50%;
+    }
+
+    #h2-clips{
+        margin-left: -10%;
+    }
+
+    h2{
+        font-size:200%;
+    }
+
 }
 
 /* media queries for large phones and larger 1024px and up*/
 @media screen and (min-width: 1024px) {
+
     h1 {
         font-size: 2.2rem;
     }
@@ -340,14 +407,19 @@ footer {
         column-count: 4;
         display:flex;
         min-height: 600px;
-        margin-top: 10px; 
-        gap: 5px;  
+        margin-top: 10px;
+        gap: 10px;
+    }
+
+    #hero-image{
+        width: 100%;
+        size: cover;
     }
 
     #clip-pics img{
-        margin-left: 100px;
+        margin-left: 0px;
         height: 150px;
-        width: 100%;
+        width: 80%;
     }
 
     #icons {
@@ -363,7 +435,15 @@ footer {
     #staff{
         margin-top: -370px;
         margin-bottom: 80px;
-        column-count: 4;
+        column-count: 2;
+    }
+
+    #hero{
+        margin-bottom: 350px;
+    }
+
+    #staff{
+        margin-bottom:40px;
     }
 }
 
@@ -381,6 +461,21 @@ footer {
     }
 
     #staff{
-        column-count: 4;
+        column-count: 2;
+    }
+
+    #icons {
+        text-align: center;
+        justify-content: space-between;
+        margin-right: 300px;
+    }
+
+    #hero-image{
+        width: 100%;
+        size: cover;
+    }
+
+    #hero{
+        margin-bottom: 730px;
     }
 }
