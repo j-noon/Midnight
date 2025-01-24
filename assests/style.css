@@ -110,6 +110,8 @@ main {
 
 
 #hero-text-section{
+    width: 100%;
+    size:cover;
     background-image:url("https://cdn.discordapp.com/attachments/1331423798708146235/1332064505722835014/who-r-they.png?ex=67948dfe&is=67933c7e&hm=c55792c34796235d637689dcf57eb76497d0913367b49a63a10a9e18378e7076&");
 }
 
@@ -336,6 +338,12 @@ footer {
 
     #hero{
         margin-bottom: 160px;
+    }
+
+    #hero-text{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-right: 50px;
     }
 
     #clip-pics{
