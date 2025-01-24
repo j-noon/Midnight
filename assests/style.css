@@ -29,6 +29,7 @@ header {
 
 header a {
     text-decoration: none;
+    padding-bottom: 5px;
 }
 
 h1 {
@@ -70,8 +71,8 @@ nav {
 /*main content*/
 
 main {
+    background-color: #909692;
     flex: 1 0 auto;
-    margin-top:-3%;
 }
 
 #hero {
@@ -106,17 +107,18 @@ p {
     flex-direction: column;
 }
 
-#clips{;
+#clips{
     background-color: #909692;
 }
 
 #clip-pics{
     column-count: 2;
+    width: 75%;
     margin-right: 20px;
 }
 
 #clip-pics img{
-    margin-left: 10px;
+    margin-left: 40px;
     width: 95%;
     gap:1px;
     border-radius: 15px;
@@ -292,6 +294,7 @@ footer {
     }
 
     #clip-pics{
+        margin-left: 40px;
         column-count: 2;
     }
 
@@ -341,6 +344,7 @@ footer {
     }
 
     #clip-pics img{
+        margin-left: 100px;
         height: 150px;
         width: 100%;
     }
