@@ -221,6 +221,38 @@ h3{
     background-color: #909692;
 }
 
+/* join-us content*/
+
+#req-list-div{
+    background-image: url("https://cdn.discordapp.com/attachments/1331423798708146235/1332064505722835014/who-r-they.png?ex=67992b3e&is=6797d9be&hm=95641bdb7afc1db6d0537861826e968968c05a312732f915c3e30984ff7605b9&");
+    background-size: 100% 100%;
+}
+
+#req-list li{
+    color: white;
+    padding-left:5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+
+    #join-paragraphs{
+        margin-bottom:60px;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        background-image: url("https://cdn.discordapp.com/attachments/1331423798708146235/1333563352227774538/image.png?ex=67995927&is=679807a7&hm=e47c1b9b240b982450466951b98befd551dcdfb575cd0b461c4065c07a9ea244&");
+    }
+
+    #download-links{
+        background-image:url("https://cdn.discordapp.com/attachments/1331423798708146235/1332065298160943115/download.jpg?ex=67992bfb&is=6797da7b&hm=f5956c986b845315b7324ce5204960a34b26273219909eb3475b94201542604f&");
+    }
+
+    #download-links li a{
+        color: white;
+        padding-left: 10px;
+        text-decoration: none;
+    }
+
+
 
 /*footer content*/
 footer {
