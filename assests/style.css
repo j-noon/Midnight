@@ -422,6 +422,19 @@ footer {
     #hero-image{
         width: 100%;
         size: cover;
+        max-height: 800px;
+        margin-bottom: 10px;
+    }
+
+    #hero-text-section{
+        margin-top: -150px;
+    }
+
+    #g-button{
+        position: absolute;
+        flex-direction:row;
+        margin-left: 40%;
+        margin-top: -450px;
     }
 
     #clip-pics img{
@@ -485,5 +498,9 @@ footer {
 
     #hero{
         margin-bottom: 730px;
+    }
+
+    #hero-text-section{
+        margin-top: -530px;
     }
 }
