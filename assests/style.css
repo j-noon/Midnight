@@ -82,7 +82,6 @@ main {
 }
 
 #hero {
-    height: 600px;
     width: 100%;
     max-height: fit-content;
     background-color:#909692;
@@ -91,6 +90,10 @@ main {
 
 #hero-image{
     width: 100%;
+}
+
+#hero-text-section{
+    margin-top: 0px;
 }
 
 #hero-text{
