@@ -112,7 +112,7 @@ main {
 #hero-text-section{
     width: 100%;
     size:cover;
-    background-image:url("https://cdn.discordapp.com/attachments/1331423798708146235/1332064505722835014/who-r-they.png?ex=67948dfe&is=67933c7e&hm=c55792c34796235d637689dcf57eb76497d0913367b49a63a10a9e18378e7076&");
+    background-image:url("https://cdn.discordapp.com/attachments/1331423798708146235/1333551889287217192/who-r-they.png?ex=679a9ffa&is=67994e7a&hm=a05db0b8c90e35771942c982d01c89e952081c42c982abe667fe4eacf5899b61&");
 }
 
 p {
@@ -226,6 +226,7 @@ h3{
 #req-list-div{
     background-image: url("https://cdn.discordapp.com/attachments/1331423798708146235/1332064505722835014/who-r-they.png?ex=67992b3e&is=6797d9be&hm=95641bdb7afc1db6d0537861826e968968c05a312732f915c3e30984ff7605b9&");
     background-size: 100% 100%;
+    min-height:380px;
 }
 
 #req-list li{
@@ -233,6 +234,12 @@ h3{
     padding-left:5px;
     padding-top: 5px;
     padding-bottom: 5px;
+    margin-left: 10px;
+    background-color: #909692;
+    width: fit-content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
     }
 
     #join-paragraphs{
@@ -240,16 +247,27 @@ h3{
         padding-bottom: 10px;
         padding-top: 5px;
         background-image: url("https://cdn.discordapp.com/attachments/1331423798708146235/1333563352227774538/image.png?ex=67995927&is=679807a7&hm=e47c1b9b240b982450466951b98befd551dcdfb575cd0b461c4065c07a9ea244&");
+        background-color: #b309de;      
+    }
+
+    #join-paragraphs p{
+        width: fit-content;
     }
 
     #download-links{
-        background-image:url("https://cdn.discordapp.com/attachments/1331423798708146235/1332065298160943115/download.jpg?ex=67992bfb&is=6797da7b&hm=f5956c986b845315b7324ce5204960a34b26273219909eb3475b94201542604f&");
+        background-image:url("https://cdn.discordapp.com/attachments/1331423798708146235/1334099800462725182/image-enhanced_6.png?ex=679b4cc2&is=6799fb42&hm=518c35de8f0755a474cd0e3f024c3c38a908f2f887f52aa42b91dea507b38f99&");
+        background-color: #b309de;
+        min-height: 100px;
+        padding-bottom:20px;
+        padding-top: 10px;
     }
 
     #download-links li a{
         color: white;
         padding-left: 10px;
-        text-decoration: none;
+        text-decoration: underline;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
 
@@ -430,6 +448,15 @@ footer {
         font-size:200%;
     }
 
+    #req-list li{
+        margin-top: 60px;
+        margin-left: 30px;
+        display: inline-block;
+    }
+
+    #download-links li{
+        text-align: center;
+    }
 }
 
 /* media queries for large phones and larger 1024px and up*/
@@ -463,6 +490,7 @@ footer {
     }
 
     #g-button{
+        display: inline;
         position: absolute;
         flex-direction:row;
         margin-left: 40%;
@@ -498,6 +526,11 @@ footer {
     #staff{
         margin-bottom:40px;
     }
+
+    /*join us content*/
+    #req-list-div{
+        min-height: 400px;
+        text-align: center;
 }
 
 /* media queries for large phones and larger 1440px and up*/
@@ -511,6 +544,10 @@ footer {
 
     #gallery-images{
         column-count: 4;
+    }
+
+    #gallery{
+        margin-top: 10px;
     }
 
     #staff{
@@ -534,5 +571,9 @@ footer {
 
     #hero-text-section{
         margin-top: -530px;
+    }
+
+    #clip-pics{
+        margin-left: 110px;
     }
 }
