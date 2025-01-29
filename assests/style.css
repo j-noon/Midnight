@@ -92,9 +92,6 @@ main {
     width: 100%;
 }
 
-#hero-text-section{
-    margin-top: 0px;
-}
 
 #hero-text{
     background-color: rgba(119,136,153 .7);
@@ -297,8 +294,6 @@ footer {
     display: inline-block;
     justify-content: center;
     justify-content: space-between;
-
-
 }
 
 
@@ -473,7 +468,7 @@ footer {
     #clip-pics{
         column-count: 4;
         display:flex;
-        min-height: 600px;
+        min-height: 220px;
         margin-top: 10px;
         gap: 10px;
     }
@@ -485,14 +480,13 @@ footer {
         margin-bottom: 10px;
     }
 
-    }
 
     #g-button{
         display: inline;
         position: absolute;
         flex-direction:row;
         margin-left: 40%;
-        margin-top: -450px;
+        margin-top: -65px;
     }
 
     #clip-pics img{
@@ -512,10 +506,11 @@ footer {
     }
 
     #staff{
-        margin-top: -370px;
         margin-bottom: 80px;
         column-count: 2;
     }
+
+    
 
     #staff{
         margin-bottom:40px;
