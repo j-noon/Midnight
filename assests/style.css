@@ -389,9 +389,6 @@ footer {
         width: 100%;
     }
 
-    #hero{
-        margin-bottom: 160px;
-    }
 
     #hero-text{
         margin-top: 30px;
@@ -488,8 +485,6 @@ footer {
         margin-bottom: 10px;
     }
 
-    #hero-text-section{
-        margin-top: -150px;
     }
 
     #g-button{
@@ -520,10 +515,6 @@ footer {
         margin-top: -370px;
         margin-bottom: 80px;
         column-count: 2;
-    }
-
-    #hero{
-        margin-bottom: 350px;
     }
 
     #staff{
@@ -566,14 +557,6 @@ footer {
     #hero-image{
         width: 100%;
         size: cover;
-    }
-
-    #hero{
-        margin-bottom: 730px;
-    }
-
-    #hero-text-section{
-        margin-top: -530px;
     }
 
     #clip-pics{
