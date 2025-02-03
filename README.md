@@ -26,3 +26,6 @@
 + also a few links were not set in thier correct possitions and one link became invalid due to link key changing. 
 + gallery images also displayed differently at 1st when very 1st deployed.
 + all has been corrected now.
+
+## deployment
++ final deployed version is here. all made responsive with all links fixed and none of which expire. color scheme is all matching and approved by wave chrome ext, also code has been ran through wc3 html checker and css validator (jigsaw)
