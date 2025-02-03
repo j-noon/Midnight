@@ -10,7 +10,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
 
+a{
+    color: white;
 }
 
 h2 {
@@ -23,14 +26,14 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    color: #b309de;
+    color: white;
     font-family: cursive, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /*header content*/
 
 header {
-    background-color: #909692;
+    background-color: #810470;
 }
 
 header a {
@@ -41,11 +44,12 @@ header a {
 h1 {
     font-size: 180%;
     text-transform: uppercase;
-    color: #b309de;
+    color: white;
 
 }
 
 #title {
+    color: white;
     text-align: center;
 }
 
@@ -77,14 +81,14 @@ nav {
 /*main content*/
 
 main {
-    background-color: #909692;
+    background-color: #810470;
     flex: 1 0 auto;
 }
 
 #hero {
     width: 100%;
     max-height: fit-content;
-    background-color: #909692;
+    background-color: #810470;
     margin-top: 0px;
 }
 
@@ -94,7 +98,6 @@ main {
 
 
 #hero-text {
-    background-color: rgba(119, 136, 153 .7);
     font-size: 120%;
     padding-bottom: 10px;
 }
@@ -105,7 +108,7 @@ main {
     margin-left: 10px;
     border-radius: 5px;
     width: fit-content;
-    background-color: #909692;
+    background-color: #810470;
 }
 
 
@@ -117,7 +120,8 @@ main {
 }
 
 p {
-    background-color: #909692;
+    background-color:#810470;
+    
     font-size: 1rem;
     margin-left: 10px;
     margin-right: 10px;
@@ -133,7 +137,7 @@ p {
 
 #clips {
     margin-top: 0px;
-    background-color: #909692;
+    background-color: #810470;
 }
 
 #clip-pics {
@@ -153,7 +157,7 @@ p {
 #gallery-button {
     font-size: 120%;
     color: #edebeb;
-    background-color: #b309de;
+    background-color: #810470;
     margin-left: 35%;
     margin-bottom: 10px;
     padding: 5px 5px 5px 5px;
@@ -162,6 +166,7 @@ p {
 }
 
 h2 {
+    background-color: #810470;
     padding-bottom: 5px;
     padding-left: 10px;
     text-decoration: underline;
@@ -169,22 +174,27 @@ h2 {
 
 #staff {
     margin-top: 0%;
-    background-color: #b309de;
+    background-color: #810470;
 }
 
 #staff h2 {
-    background-color: #909692;
+    background-color: #810470;
     border-radius: 5px;
     width: fit-content;
     margin-top: 5px;
     margin-left: 35%;
 }
 
+#h2-staff{
+background-color: #810470;
+color:white;
+}
+
 /*staff content*/
 
 #staff {
     background-image: url("../images/lstrade.png");
-    background-color: #edebeb;
+    background-color: #810470;
     background-position: center;
     background-size: cover;
     background-repeat: none;
@@ -229,7 +239,7 @@ h3 {
 
 #gallery {
     margin-bottom: 120px;
-    background-color: #909692;
+    background-color: #810470;
 }
 
 /* join-us content*/
@@ -246,7 +256,7 @@ h3 {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 10px;
-    background-color: #909692;
+    background-color: #810470;
     width: fit-content;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -260,7 +270,7 @@ h3 {
     padding-top: 5px;
     background-image: url("../images/court-room.png");
     background-repeat: 5;
-    background-color: #b309de;
+    background-color: #810470;
 }
 
 #join-paragraphs p {
@@ -269,7 +279,7 @@ h3 {
 
 #download-links {
     background-image: url("../images/josh-hallows.png");
-    background-color: #b309de;
+    background-color: #810470;
     min-height: 100px;
     padding-bottom: 20px;
     padding-top: 10px;
@@ -287,7 +297,7 @@ h3 {
 
 /*footer content*/
 footer {
-    background-color: #909692;
+    background-color: #810470;
     position: fixed;
     bottom: 0%;
     width: 100%
@@ -299,7 +309,7 @@ footer {
 }
 
 #icons {
-    color: #b309de;
+    color: white;
     font-size: 2rem;
     padding: 27px;
     text-align: center;
@@ -442,7 +452,7 @@ footer {
     }
 
     #staff h2 {
-        background-color: #909692;
+        background-color: #810470;
         width: fit-content;
         margin-top: 5px;
         margin-left: 75%;
