@@ -57,7 +57,7 @@ h1 {
     margin-top: 20px;
 }
 
-.clickable {
+#clickable {
     border-bottom: solid 1px;
 }
 
@@ -68,12 +68,12 @@ nav {
     font-size: 110%;
 }
 
-#nav-list {
+.nav-list {
     color: white;
     margin: 1rem;
 }
 
-#icons {
+.icons {
     margin-left: 10px;
     text-align: center;
 }
@@ -114,7 +114,7 @@ main {
 
 #hero-text-section {
     width: 100%;
-    size: cover;
+    resize: none;
     background-image: url("../images/who-r-they.png");
     background-size: 100% 100%;
 }
@@ -197,7 +197,6 @@ color:white;
     background-color: #810470;
     background-position: center;
     background-size: cover;
-    background-repeat: none;
     margin-bottom: 90px;
 }
 
@@ -269,7 +268,6 @@ h3 {
     padding-bottom: 10px;
     padding-top: 5px;
     background-image: url("../images/court-room.png");
-    background-repeat: 5;
     background-color: #810470;
 }
 
@@ -308,7 +306,7 @@ footer {
     margin-left: 0%;
 }
 
-#icons {
+.icons {
     color: white;
     font-size: 2rem;
     padding: 27px;
@@ -352,7 +350,7 @@ footer {
         padding-left: 3rem;
     }
 
-    #icons {
+    .icons {
         text-align: center;
         margin-left: 25px;
     }
@@ -398,7 +396,7 @@ footer {
         padding-top: 10px;
     }
 
-    #nav-list {
+    .nav-list {
         margin-top: -40px;
         margin-bottom: 40px;
     }
@@ -420,7 +418,7 @@ footer {
     }
 
 
-    #icons {
+    .icons {
         text-align: center;
         margin-left: 90px;
     }
@@ -431,7 +429,7 @@ footer {
 
     }
 
-    #icons {
+    .icons {
         justify-content: space-between;
         text-align: center;
         margin-right: 50px;
@@ -443,6 +441,10 @@ footer {
 
     #staff {
         column-count: 2;
+    }
+
+    #staff-pics{
+        margin-bottom: 120px;
     }
 
     #h2-staff {
@@ -462,7 +464,7 @@ footer {
         margin-left: 42%;
     }
 
-    #staff-paragraph {
+    .staff-paragraph {
         margin-right: 50%;
     }
 
@@ -492,7 +494,7 @@ footer {
         font-size: 2.2rem;
     }
 
-    #nav-list {
+    .nav-list {
         margin-top: -60px;
     }
 
@@ -506,7 +508,7 @@ footer {
 
     #hero-image {
         width: 100%;
-        size: cover;
+        resize: none;
         max-height: 800px;
         margin-bottom: 10px;
     }
@@ -520,13 +522,17 @@ footer {
         margin-top: -65px;
     }
 
+    #g-button a{
+        margin-left: 50%;
+    }
+
     #clip-pics img {
         margin-left: 0px;
         height: 150px;
         width: 80%;
     }
 
-    #icons {
+    .icons {
         text-align: center;
         justify-content: space-between;
         margin-right: 140px;
@@ -553,7 +559,7 @@ footer {
 
     #hero-text-section {
         width: 100%;
-        size: cover;
+        resize: none;
         background-image: url("../images/who-r-they.png");
         background-size: 100% 100%;
         min-height: 300px;
@@ -581,7 +587,7 @@ footer {
             column-count: 2;
         }
 
-        #icons {
+        .icons {
             margin-left: 180px;
             text-align: center;
             justify-content: space-between;
@@ -589,7 +595,7 @@ footer {
 
         #hero-image {
             width: 100%;
-            size: cover;
+            resize: none;
         }
 
         #clip-pics {
@@ -606,9 +612,11 @@ footer {
 
         #hero-text-section {
             width: 100%;
-            size: cover;
+            resize: none;
             background-image: url("../images/who-r-they.png");
             background-size: 100% 100%;
             min-height: 350px;
         }
     }
+
+    
