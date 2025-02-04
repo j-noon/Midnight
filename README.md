@@ -29,3 +29,8 @@
 
 ## deployment
 + final deployed version is here. all made responsive with all links fixed and none of which expire. color scheme is all matching and approved by wave chrome ext, also code has been ran through wc3 html checker and css validator (jigsaw)
+
+## wireframes and structure links
++ wire frames for mobile (320px) !{home page}(gallery 320.png)
++ wire frames for tablets (768px)
++ wire frames for desktops (1024px) 
