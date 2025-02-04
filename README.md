@@ -31,6 +31,17 @@
 + final deployed version is here. all made responsive with all links fixed and none of which expire. color scheme is all matching and approved by wave chrome ext, also code has been ran through wc3 html checker and css validator (jigsaw)
 
 ## wireframes and structure links
-+ wire frames for mobile (320px) !{home page}(gallery 320.png)
-+ wire frames for tablets (768px)
-+ wire frames for desktops (1024px) 
+### wire frames for mobile (320px)
++ {home} (https://github.com/j-noon/Midnight/blob/main/assests/wireframes/home%20page%20320x1000.png)
++ {gallery} (https://github.com/j-noon/Midnight/blob/main/assests/wireframes/gallery%20320.png)
++ {join us} (https://github.com/j-noon/Midnight/blob/main/assests/wireframes/join%20us%20320.png)
+
+### wire frames for tablets (768px)
++ {home} (https://github.com/j-noon/Midnight/blob/main/assests/wireframes/home%20page%20768.png)
++ {gallery} (https://github.com/j-noon/Midnight/blob/main/assests/wireframes/gallery%20768.png)
++ {join us} (https://github.com/j-noon/Midnight/blob/main/assests/wireframes/join%20us%20768.png)
+
+### wire frames for desktops (1024px) 
++ {home} (https://github.com/j-noon/Midnight/blob/main/assests/wireframes/header%201024.png)
++ {gallery} (https://github.com/j-noon/Midnight/blob/main/assests/wireframes/gallery%201024.png)
++ {join us} (https://github.com/j-noon/Midnight/blob/main/assests/wireframes/join%20us%201024.png)
