@@ -103,7 +103,7 @@ main {
 }
 
 .about-us {
-    text-decoration: underline;
+    text-decoration: none;
     margin-top: 10px;
     margin-left: 10px;
     border-radius: 5px;
@@ -115,7 +115,7 @@ main {
 #hero-text-section {
     width: 100%;
     resize: none;
-    background-image: url("../images/who-r-they.png");
+    background-image: url("../images/who-r-they.webp");
     background-size: 100% 100%;
 }
 
@@ -169,7 +169,7 @@ h2 {
     background-color: #810470;
     padding-bottom: 5px;
     padding-left: 10px;
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #staff {
@@ -193,7 +193,7 @@ color:white;
 /*staff content*/
 
 #staff {
-    background-image: url("../images/lstrade.png");
+    background-image: url("../images/lstrade.webp");
     background-color: #810470;
     background-position: center;
     background-size: cover;
@@ -204,7 +204,7 @@ h3 {
     margin-left: 5px;
     color: white;
     text-align: left;
-    text-decoration: underline;
+    text-decoration: none;
     padding-bottom: 20px;
 }
 
@@ -244,7 +244,7 @@ h3 {
 /* join-us content*/
 
 #req-list-div {
-    background-image: url("../images/who-r-they.png");
+    background-image: url("../images/who-r-they.webp");
     background-size: 100% 100%;
     min-height: 380px;
 }
@@ -267,7 +267,7 @@ h3 {
     margin-bottom: 110px;
     padding-bottom: 10px;
     padding-top: 5px;
-    background-image: url("../images/court-room.png");
+    background-image: url("../images/court-room.webp");
     background-color: #810470;
 }
 
@@ -276,7 +276,7 @@ h3 {
 }
 
 #download-links {
-    background-image: url("../images/josh-hallows.png");
+    background-image: url("../images/josh-hallows.webp");
     background-color: #810470;
     min-height: 100px;
     padding-bottom: 20px;
@@ -298,6 +298,8 @@ footer {
     background-color: #810470;
     position: fixed;
     bottom: 0%;
+    display: flex;
+    justify-content: space-evenly;
     width: 100%
 }
 
@@ -460,6 +462,10 @@ footer {
         margin-left: 75%;
     }
 
+    #emily{
+        padding-block: 40px;
+    }
+
     #gallery-button {
         margin-left: 42%;
     }
@@ -560,7 +566,7 @@ footer {
     #hero-text-section {
         width: 100%;
         resize: none;
-        background-image: url("../images/who-r-they.png");
+        background-image: url("../images/who-r-they.webp");
         background-size: 100% 100%;
         min-height: 300px;
     }
@@ -613,10 +619,8 @@ footer {
         #hero-text-section {
             width: 100%;
             resize: none;
-            background-image: url("../images/who-r-they.png");
+            background-image: url("../images/who-r-they.webp");
             background-size: 100% 100%;
             min-height: 350px;
-        }
-    }
-
-    
+        }}
+}
