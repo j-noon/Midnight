@@ -264,7 +264,6 @@ h3 {
 }
 
 #join-paragraphs {
-    margin-bottom: 110px;
     padding-bottom: 10px;
     padding-top: 5px;
     background-image: url("../images/court-room.webp");
@@ -291,6 +290,11 @@ h3 {
     padding-bottom: 10px;
 }
 
+#req-hero{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 100px;
+}
 
 
 /*footer content*/
@@ -491,6 +495,10 @@ footer {
     #download-links li {
         text-align: center;
     }
+
+    #req-hero{
+        margin-bottom: 100px;
+    }
 }
 
 /* media queries for large phones and larger 1024px and up*/
@@ -570,6 +578,9 @@ footer {
         background-size: 100% 100%;
         min-height: 300px;
     }
+
+    #req-hero{
+        margin-bottom: 100px;
 
     /* media queries for large phones and larger 1440px and up*/
     @media screen and (min-width: 1440px) {
