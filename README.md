@@ -144,6 +144,18 @@ To make a clone of the site and ensure you don't affect the original:
 + gallery images also displayed differently at 1st when very 1st deployed.
 + all has been corrected now.
 
+| ELEMENT | PROCESS | EXPECTED RESULT | OUTCOME |
+| ------- | ------- | --------------- | ------- |
+| Logo and website name | Click | Return to homepage | Successful |
+| Navbar 'Home' button | Click | Return to homepage | Successful |
+| Navbar 'gallery' button | Click | Navigate to gallery page | Successful |
+| Navbar 'join us' button | Click | Navigate to join us page | Successful |
+| Navbar buttons | Click | Current page underlined | Successful |
+| 1 gallery link buttons | Click | view all to go to gallery page | Successful |
+| Social media footer links | Click | Navigate to corresponding page in new tab | Successful |
+| Broken link | Enter | Navigate to 404 page | Successful |
+
+
 
 # References
 
