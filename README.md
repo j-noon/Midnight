@@ -1,6 +1,6 @@
 # midnight role-play gta 5
 
-![mocup devices view](Documents\mocup-all-devices.png)
+![mocup devices view](https://github.com/j-noon/Midnight/blob/main/Documents/mocup-all-devices.png)
 
 # Contents
 
@@ -43,7 +43,7 @@
  - gallery - this will navigate the user to the gallery page to view all media stored there. 
  - join us - instructions and rewuirements needed to join the game and links to download all they need to enter the server. 
 
-![nav bar image](../Midnight/Documents/nav%20bar.png)
+![nav bar image](/Midnight/Documents/nav%20bar.png) 
 
 # Pages
 
