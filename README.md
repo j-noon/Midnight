@@ -35,6 +35,9 @@
 - Able to use the links provided to visit linked social meida sites
 - Get in touch if need be with the staff team
 
+# Purpose of Midnight
+ The main purpose of midnight is to keep its comunity up-to date with changes, also to have a easy and accessible place to view all needed content. this brings great value as everyone can read the info and be on the same page. With staff being highlighted the players can now know who to get in contact with if or they have questions or concerns, also this will aid the staff to maintane a smooth running server and for players to have the best experiance possible. With Midnight being here they can also browse through the gallery and visually see the latest trends and activities that are taking place by the comunity so far. Last but not least the join us page. this has a major value as brand new viewers may not have even heard of Fivem and its services so with this in place it gives them the whole run down on how to join midnight and get involved.   
+
 # Features
 
 ## Nav bar
@@ -155,10 +158,16 @@ To make a clone of the site and ensure you don't affect the original:
 | Social media footer links | Click | Navigate to corresponding page in new tab | Successful |
 | Broken link | Enter | Navigate to 404 page | Successful | 
 
-![index validated]()
-![gallery validated]()
-![join us validated]()
-![css us validated]()
+![index validated](https://github.com/j-noon/Midnight/blob/main/Documents/index.validated.png)
+![gallery validated](https://github.com/j-noon/Midnight/blob/main/Documents/gallery%20validated.png)
+![join us validated](https://github.com/j-noon/Midnight/blob/main/Documents/joinus%20validated.png)
+![css us validated](https://github.com/j-noon/Midnight/blob/main/Documents/css%20validated.png)
+
+## found bugs
+- Ancor elements were not nested correctly within heading elements causing the clickable link areas to span across the width of pages. This got fixed. 
+
+- no headings in my main sections were found in the validators. I placed a heading and used css to hide them as they are not wanted. 
+
 
 
 
