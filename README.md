@@ -43,7 +43,7 @@
  - gallery - this will navigate the user to the gallery page to view all media stored there. 
  - join us - instructions and rewuirements needed to join the game and links to download all they need to enter the server. 
 
-![nav bar image](/Midnight/Documents/nav%20bar.png) 
+![nav bar image](https://github.com/j-noon/Midnight/blob/main/Documents/nav%20bar.png)
 
 # Pages
 
@@ -65,11 +65,11 @@
 
 ## Footer
 
-- ![footer icons](../Midnight/Documents/footer.png)
+- ![footer icons](https://github.com/j-noon/Midnight/blob/main/Documents/footer.png)
 - Icons are interactable and take to linked socials
 
 ## Design
-![design colors](../Midnight/Documents/design.png)
+![design colors](https://github.com/j-noon/Midnight/blob/main/Documents/design.png)
 
 - fonts are imported from google font awsome
 - font awsome is used for the icons in the footer and the favicons
@@ -81,34 +81,34 @@
  wireframes were made in canva
 ## Wireframes for mobile (320px)
     Home page for mobile
- ![home](../Midnight/assests/wireframes/home-page-320x1000.png)
+ ![home](https://github.com/j-noon/Midnight/blob/main/assests/wireframes/home-page-320x1000.png)
 
     Gallery page for mobile
- ![gallery](../Midnight/assests/wireframes/gallery-320.png)
+ ![gallery](https://github.com/j-noon/Midnight/blob/main/assests/wireframes/gallery-320.png)
 
     Join us page for mobile
- ![join us](../Midnight/assests/wireframes/join-us-320.png)
+ ![join us](https://github.com/j-noon/Midnight/blob/main/assests/wireframes/join-us-320.png)
 
 
 ### wireframes for tablets (768px)
     Home page for tablets
- ![Home](../Midnight/assests/wireframes/home%20page-768.png)
+ ![Home](https://github.com/j-noon/Midnight/blob/main/assests/wireframes/home%20page-768.png)
 
     Gallery page page for tablets
- ![gallery](../Midnight/assests/wireframes/gallery-768.png)
+ ![gallery](https://github.com/j-noon/Midnight/blob/main/assests/wireframes/gallery-768.png)
 
     Join us page for page for tablets
- ![join us](../Midnight/assests/wireframes/join-us-768.png)
+ ![join us](https://github.com/j-noon/Midnight/blob/main/assests/wireframes/join-us-768.png)
 
 ### wireframes for desktops (1024px) 
      Home page for desktops
- ![home](../Midnight/assests/wireframes/header-1024.png)
+ ![home](https://github.com/j-noon/Midnight/blob/main/assests/wireframes/header-1024.png)
 
      Gallery page for desktops
- ![gallery](../Midnight/assests/wireframes/gallery-1024.png)
+ ![gallery](https://github.com/j-noon/Midnight/blob/main/assests/wireframes/gallery-1024.png)
 
      Join us page for desktops
- ![join us](../Midnight/assests/wireframes/join-us-1024.png)
+ ![join us](https://github.com/j-noon/Midnight/blob/main/assests/wireframes/join-us-1024.png)
 
 
 
