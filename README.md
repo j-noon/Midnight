@@ -155,6 +155,12 @@ To make a clone of the site and ensure you don't affect the original:
 | Social media footer links | Click | Navigate to corresponding page in new tab | Successful |
 | Broken link | Enter | Navigate to 404 page | Successful | 
 
+![index validated]()
+![gallery validated]()
+![join us validated]()
+![css us validated]()
+
+
 
 
 # References

@@ -80,6 +80,10 @@ nav {
 
 /*main content*/
 
+#hide{
+    display: none;
+}
+
 main {
     background-color: #810470;
     flex: 1 0 auto;
@@ -158,11 +162,13 @@ p {
     font-size: 120%;
     color: #edebeb;
     background-color: #810470;
-    margin-left: 35%;
-    margin-bottom: 10px;
-    padding: 5px 5px 5px 5px;
+    padding: 1px 1px 1px 1px;
     border: none;
     border-radius: 5px;
+    position: absolute;
+    margin-top: -34px;
+    margin-left:190px;
+
 }
 
 h2 {
@@ -173,7 +179,7 @@ h2 {
 }
 
 #staff {
-    margin-top: 0%;
+    margin-top: 0px;
     background-color: #810470;
 }
 
@@ -471,7 +477,7 @@ footer {
     }
 
     #gallery-button {
-        margin-left: 42%;
+        margin-left: 56%;
     }
 
     .staff-paragraph {
@@ -532,8 +538,8 @@ footer {
         display: inline;
         position: absolute;
         flex-direction: row;
-        margin-left: 40%;
-        margin-top: -65px;
+        margin-left: 45%;
+        margin-top: -30px;
     }
 
     #g-button a{
