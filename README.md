@@ -158,9 +158,14 @@ To make a clone of the site and ensure you don't affect the original:
 | Social media footer links | Click | Navigate to corresponding page in new tab | Successful |
 | Broken link | Enter | Navigate to 404 page | Successful | 
 
+
+  ## Index page validated
 ![index validated](https://github.com/j-noon/Midnight/blob/main/Documents/index.validated.png)
+## Galery page validated
 ![gallery validated](https://github.com/j-noon/Midnight/blob/main/Documents/gallery%20validated.png)
+## Join us page validated
 ![join us validated](https://github.com/j-noon/Midnight/blob/main/Documents/joinus%20validated.png)
+## CSS page validated
 ![css us validated](https://github.com/j-noon/Midnight/blob/main/Documents/css%20validated.png)
 
 ## found bugs
