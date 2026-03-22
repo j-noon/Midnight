@@ -55,16 +55,22 @@
 + the clips and higlights section is to display our most recent event pics and to give a quick visulization of the qaulity of our server
 + staff section is to highlight to the new player who they may encounter along thir journey of midnight and who it is they can turn to if have any questions or concerns 
 
+![Home Page](assests/readme-images/midnight-home-page.png)
+
 ## Gallery page
 - this page is designed to give a great visualization to what kind of events and rolly polly we have here at midnight.
 - the page is build bright and bold to really attract the new players and make them feel theyed like to atleast give it ago
- 
+
+![Gallery Page](assests/readme-images/midnight-gallery.png)
 
 ## Join Us page
 - this page is split into a few sections and all sections are giving detailed instructions or pathways to enable players to find midnight with more ease
 - heroimage big bright and bold to catch the eye and to highlight staight away they will need a pc. 
 - second section is giving the new player the links to be able to download the specified programs they will need to run the server
 - then finally a set of step by step instruction on what to do, where to go, and how to join midnight. 
+
+![Join Us Page](assests/readme-images/midnight-join-us.png)
+
 
 ## Footer
 
