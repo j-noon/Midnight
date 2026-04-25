@@ -647,6 +647,16 @@ footer {
         }
     }
 
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+
+    #req-list-div {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 600px;
+    }
+}
+
 @media screen and (min-width: 2560px) {
     main {
         margin-top: 0;
@@ -660,5 +670,13 @@ footer {
 
     #req-section {
         margin-top: 0;
+        min-height: 500px;
+    }
+
+    #req-list-div {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 750px;
     }
 }
